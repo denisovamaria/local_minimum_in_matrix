@@ -11,7 +11,7 @@ public class Main {
         try {
             in = new Scanner(new File("input.txt"));
         } catch (IOException e) {
-            System.out.println("Error keybord input");
+            System.out.println("Error keyboard input");
         }
 
         int n = 0;
