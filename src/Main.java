@@ -4,9 +4,9 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         Scanner in = null;
-        File file = new File("Input.txt");
+        File file = new File("input.txt");
         if (file.length() == 0) {
-            System.out.println("File is empty.");
+            System.out.println("File is empty");
         }
         try {
             in = new Scanner(new File("input.txt"));
